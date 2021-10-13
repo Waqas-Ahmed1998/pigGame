@@ -87,7 +87,7 @@ diceRol.addEventListener('click', function () {
   console.log(player1Score, player2Score);
   switch (diceNumber) {
     case 1:
-      dice.src = '/starter/dice-1.png';
+      dice.src = 'dice-1.png';
       resetScore();
       switchActive();
       break;
