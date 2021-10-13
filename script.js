@@ -2,7 +2,7 @@
 // global varaibles
 let player1Score = 0;
 let player2Score = 0;
-const range = 10;
+const range = 50;
 //  first chellenge role dice
 // geting  elements
 const dice = document.querySelector('.dice');
@@ -92,23 +92,23 @@ diceRol.addEventListener('click', function () {
       switchActive();
       break;
     case 2:
-      dice.src = '/starter/dice-2.png';
+      dice.src = 'dice-2.png';
       playerScore(diceNumber);
       break;
     case 3:
-      dice.src = '/starter/dice-3.png';
+      dice.src = 'dice-3.png';
       playerScore(diceNumber);
       break;
     case 4:
-      dice.src = '/starter/dice-4.png';
+      dice.src = 'dice-4.png';
       playerScore(diceNumber);
       break;
     case 5:
-      dice.src = '/starter/dice-5.png';
+      dice.src = 'dice-5.png';
       playerScore(diceNumber);
       break;
     case 6:
-      dice.src = '/starter/dice-6.png';
+      dice.src = 'dice-6.png';
       playerScore(diceNumber);
       break;
     default:
